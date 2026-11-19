@@ -35,5 +35,7 @@ class CarsListActivity : AppCompatActivity() {
     private fun buttonFindClicked(carId: String) {
         //el usuario ha pulsado el botón.
         Log.d(CarsListActivity::class.java.simpleName, carId)
+
+
     }
 }
